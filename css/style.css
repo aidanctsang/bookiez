@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --green:#EF4E22;
+    --orange:#EF4E22;
     --dark-color:#219150;
     --black:#444;
     --light-color:#666;
@@ -22,8 +22,8 @@
 }
 
 .bookLogo {
-    height: 25%;
-    width: 25%;
+    max-width: 30%;
+    max-height: 30%;
 }
 
 html{
@@ -80,7 +80,7 @@ section{
     padding:.9rem 3rem;
     border-radius: .5rem;
     color:#fff;
-    background:var(--green);
+    background:var(--orange);
     font-size: 1.7rem;
     cursor: pointer;
     font-weight: 500;
@@ -105,7 +105,7 @@ section{
 }
 
 .header .header-1 .logo i{
-    color:var(--green);
+    color:var(--orange);
 }
 
 .header .header-1 .search-form{
@@ -136,7 +136,7 @@ section{
 }
 
 .header .header-1 .search-form label:hover{
-    color:var(--green);
+    color:var(--orange);
 }
 
 .header .header-1 .icons div,
@@ -149,7 +149,7 @@ section{
 
 .header .header-1 .icons div:hover,
 .header .header-1 .icons a:hover{
-    color:var(--green);
+    color:var(--orange);
 }
 
 #search-btn{
@@ -157,7 +157,7 @@ section{
 }
 
 .header .header-2{
-    background:var(--green);
+    background:var(--orange);
 }
 
 .header .header-2 .navbar{
@@ -184,7 +184,7 @@ section{
 
 .bottom-navbar{
     text-align: center;
-    background:var(--green);
+    background:var(--orange);
     position: fixed;
     bottom:0; left:0; right:0;
     z-index: 1000;
@@ -277,7 +277,7 @@ section{
 }
 
 .login-form-container form p a{
-    color:var(--green);
+    color:var(--orange);
     text-decoration: underline;
 }
 
@@ -352,7 +352,7 @@ section{
 
 .icons-container .icons i{
     font-size: 3.5rem;
-    color:var(--green);
+    color:var(--orange);
 }
 
 .icons-container .icons h3{
@@ -411,7 +411,7 @@ section{
 }
 
 .featured .featured-slider .box .icons a:hover{
-    background:var(--green);
+    background:var(--orange);
     color:#fff;
 }
 
@@ -524,7 +524,7 @@ section{
 
 .arrivals .arrivals-slider .box .content .stars i{
     font-size: 1.5rem;
-    color:var(--green);
+    color:var(--orange);
 }
 
 .deal{
@@ -548,7 +548,7 @@ section{
 }
 
 .deal .content h3{
-    color:var(--green);
+    color:var(--orange);
     font-size: 2.5rem;
     padding-bottom: .5rem;
 }
@@ -602,7 +602,7 @@ section{
 
 .reviews .reviews-slider .box .stars i{
     font-size: 1.7rem;
-    color:var(--green);
+    color:var(--orange);
 }
 
 .blogs .blogs-slider .box{
@@ -666,7 +666,7 @@ section{
 }
 
 .footer .box-container .box a i{
-    color:var(--green);
+    color:var(--orange);
     padding-right: .5rem;
 }
 
@@ -689,7 +689,7 @@ section{
     line-height: 5rem;
     font-size: 2rem;
     color:#fff;
-    background:var(--green);
+    background:var(--orange);
     margin:0 .3rem;
     border-radius: 50%; 
 }
@@ -709,12 +709,12 @@ section{
 }
 
 .footer .credit span a{
-    color:var(--green);
+    color:var(--orange);
 }
 
 .footer .credit span a:hover{
     color: white;
-    background-color: var(--green);
+    background-color: var(--orange);
 }
 
 
